@@ -2,6 +2,7 @@
 
 import { AppProvider } from "@/lib/app-context";
 import { ThemeProvider } from "next-themes";
+import { ToastProvider } from "@/components/ui/toast-provider";
 import { useState, useEffect, ReactNode } from "react";
 
 export function AppProviders({ children }: { children: ReactNode }) {
@@ -13,7 +14,9 @@ export function AppProviders({ children }: { children: ReactNode }) {
   return (
     <AppProvider>
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-        {mounted ? children : null}
+        <ToastProvider>
+          {mounted ? children : null}
+        </ToastProvider>
       </ThemeProvider>
     </AppProvider>
   );
