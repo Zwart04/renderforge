@@ -24,6 +24,50 @@
     {
       "pattern": "renderforge-app.zwart.qzz.io",
       "custom_domain": true
+    },
+    {
+      "pattern": "mediaforge-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "clipforge-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "clipforge-ai-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "neurotone-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "audiomind-studio-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "socsynth-studio-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "socsynth-studio-new-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "zwart-2026-08-31-socsynth-studio-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "podforge-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "voiceforge-studio-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "moodcanvas-app.zwart.qzz.io",
+      "custom_domain": true
     }
   ]
 }
